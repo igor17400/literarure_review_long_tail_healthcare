@@ -1,0 +1,11 @@
+@article{jang2024significantly,
+  title={Significantly improving zero-shot X-ray pathology classification via fine-tuning pre-trained image-text encoders},
+  author={Jang, Jongseong and Kyung, Daeun and Kim, Seung Hwan and Lee, Honglak and Bae, Kyunghoon and Choi, Edward},
+  journal={Scientific Reports},
+  volume={14},
+  number={1},
+  pages={23199},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+  abstract={Deep neural networks are increasingly used in medical imaging for tasks such as pathological classification, but they face challenges due to the scarcity of high-quality, expert-labeled training data. Recent efforts have utilized pre-trained contrastive image-text models like CLIP, adapting them for medical use by fine-tuning the model with chest X-ray images and corresponding reports for zero-shot pathology classification, thus eliminating the need for pathology-specific annotations. However, most studies continue to use the same contrastive learning objectives as in the general domain, overlooking the multi-labeled nature of medical image-report pairs. In this paper, we propose a new fine-tuning strategy that includes positive-pair loss relaxation and random sentence sampling. We aim to improve the performance of zero-shot pathology classification without relying on external knowledge. Our method can be applied to any pre-trained contrastive image-text encoder and easily transferred to out-of-domain datasets without further training, as it does not use external data. Our approach consistently improves overall zero-shot pathology classification across four chest X-ray datasets and three pre-trained models, with an average macro AUROC increase of 4.3%. Additionally, our method outperforms the state-of-the-art and marginally surpasses board-certified radiologists in zero-shot classification for the five competition pathologies in the CheXpert dataset.}
+}

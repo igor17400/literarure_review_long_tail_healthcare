@@ -1,5 +1,15 @@
 {
   "category": "Logits Adjustment",
   "description": "Modify classifier outputs to compensate for class frequency disparities",
-  "papers": []
+  "papers": [
+    {
+      "id": "cai2024bpaco",
+      "title": "BPaCo: Balanced Parametric Contrastive Learning for Long-Tailed Medical Image Classification",
+      "authors": "Cai, Zhiyuan and Wei, Tianyunxi and Lin, Li and Chen, Hao and Tang, Xiaoying",
+      "year": "2024",
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "abstract": "Medical image classification is an essential medical image analysis tasks. However, due to data scarcity of rare diseases in clinical scenarios, the acquired medical image datasets may exhibit long-tailed distributions. Previous works employ class re-balancing to address this issue yet the representation is usually not discriminative enough. Inspired by contrastive learning’s power in representation learning, in this paper, we propose and validate a contrastive learning based framework, named Balanced Parametric Contrastive learning (BPaCo), to tackle long-tailed medical image classification. There are three key components in BPaCo: across-batch class-averaging to balance the gradient contribution from negative classes; hybrid class-complement to have all classes appear in every mini-batch for discriminative prototypes; cross-entropy logit compensation to formulate an end-to-end classification framework with even stronger feature representations. Our BPaCo shows outstanding classification performance and high computational efficiency on three highly-imbalanced medical image classification datasets.",
+      "bibtex": "@inproceedings{cai2024bpaco,\n  title={BPaCo: Balanced Parametric Contrastive Learning for Long-Tailed Medical Image Classification},\n  author={Cai, Zhiyuan and Wei, Tianyunxi and Lin, Li and Chen, Hao and Tang, Xiaoying},\n  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},\n  pages={383--393},\n  year={2024},\n  organization={Springer}\n  abstract={Medical image classification is an essential medical image analysis tasks. However, due to data scarcity of rare diseases in clinical scenarios, the acquired medical image datasets may exhibit long-tailed distributions. Previous works employ class re-balancing to address this issue yet the representation is usually not discriminative enough. Inspired by contrastive learning’s power in representation learning, in this paper, we propose and validate a contrastive learning based framework, named Balanced Parametric Contrastive learning (BPaCo), to tackle long-tailed medical image classification. There are three key components in BPaCo: across-batch class-averaging to balance the gradient contribution from negative classes; hybrid class-complement to have all classes appear in every mini-batch for discriminative prototypes; cross-entropy logit compensation to formulate an end-to-end classification framework with even stronger feature representations. Our BPaCo shows outstanding classification performance and high computational efficiency on three highly-imbalanced medical image classification datasets.}\n}"
+    }
+  ]
 }

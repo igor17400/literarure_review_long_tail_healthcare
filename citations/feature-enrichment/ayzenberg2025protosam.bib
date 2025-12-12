@@ -1,0 +1,11 @@
+@article{ayzenberg2025protosam,
+  title={ProtoSAM for automated one shot medical image segmentation using foundational models},
+  author={Ayzenberg, Lev and Giryes, Raja and Greenspan, Hayit},
+  journal={Scientific Reports},
+  volume={15},
+  number={1},
+  pages={41482},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+  abstract={This work presents an advance in one-shot medical image segmentation, where a single image-label sample from a new site is used for finetuning the solution - particularly valuable in scenarios where labeled data is scarce or rapid adaptation to new classes and sites is required. We introduce ProtoSAM, a novel, fully automated framework, for one-shot medical image segmentation that combines Prototypical networks, known for few-shot segmentation, with the Segment Anything Model (SAM), a natural image foundation model for segmentation. The proposed method creates an initial coarse segmentation mask using the ALPnet prototypical network, augmented with a DINOv2 encoder. Following the extraction of an initial mask, prompts are extracted, such as points and bounding boxes, which are then input into SAM. We present extensive validation on multiple datasets including CT, MRI, and endoscopy images, demonstrating state-of-the-art results in many scenarios. Our results show that an untrained ProtoSAM can match or exceed the performance of existing one-shot trained methods, with further improvements possible through self-supervised finetuning of the encoder. Our code is available at: https://github.com/levayz/ProtoSAM/.}
+}
