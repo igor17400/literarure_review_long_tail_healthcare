@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long-Tailed Learning for Healthcare - Literature Review</title>
+    <meta name="description" content="A comprehensive collection of research papers on long-tailed learning methods in healthcare, organized by taxonomy.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="main-title">Long-Tailed Learning for Healthcare</h1>
+        <p class="subtitle">A Comprehensive Literature Review Organized by Taxonomy</p>
+        <p>It shall be updated with time...</p>
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="total-papers">0</span>
+                <span class="stat-label">Papers</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="total-categories">0</span>
+                <span class="stat-label">Categories</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content-wrapper">
+            <div id="content" class="loading">
+                Loading papers...
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="paper-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title"></h3>
+                <p class="modal-authors" id="modal-authors"></p>
+                <div class="paper-meta">
+                    <span class="paper-year" id="modal-year"></span>
+                    <span class="paper-venue" id="modal-venue"></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h4 class="modal-section-title">Abstract</h4>
+                    <p class="modal-abstract" id="modal-abstract"></p>
+                </div>
+                <div class="modal-section">
+                    <h4 class="modal-section-title">BibTeX Citation</h4>
+                    <pre class="modal-bibtex" id="modal-bibtex"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Last Updated on <span id="current-date"></span></p>
+        <p>Literature Review by Igor Lima Rocha Azevedo </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
