@@ -1,0 +1,5 @@
+{
+  "category": "Logits Adjustment",
+  "description": "Modify classifier outputs to compensate for class frequency disparities",
+  "papers": []
+}

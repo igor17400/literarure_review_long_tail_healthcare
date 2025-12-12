@@ -1,0 +1,9 @@
+@inproceedings{ju2022flexible,
+  title={Flexible sampling for long-tailed skin lesion classification},
+  author={Ju, Lie and Wu, Yicheng and Wang, Lin and Yu, Zhen and Zhao, Xin and Wang, Xin and Bonnington, Paul and Ge, Zongyuan},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={462--471},
+  year={2022},
+  organization={Springer}
+  abstract={ost of the medical tasks naturally exhibit a long-tailed distribution due to the complex patient-level conditions and the existence of rare diseases. Existing long-tailed learning methods usually treat each class equally to re-balance the long-tailed distribution. However, considering that some challenging classes may present diverse intra-class distributions, re-balancing all classes equally may lead to a significant performance drop. To address this, in this paper, we propose a curriculum learning-based framework called Flexible Sampling for the long-tailed skin lesion classification task. Specifically, we initially sample a subset of training data as anchor points based on the individual class prototypes. Then, these anchor points are used to pre-train an inference model to evaluate the per-class learning difficulty. Finally, we use a curriculum sampling module to dynamically query new samples from the rest training samples with the learning difficulty-aware sampling probability. We evaluated our model against several state-of-the-art methods on the ISIC dataset. The results with two long-tailed settings have demonstrated the superiority of our proposed training strategy, which achieves a new benchmark for long-tailed skin lesion classification.}
+}
